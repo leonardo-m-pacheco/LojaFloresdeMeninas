@@ -1,0 +1,144 @@
+#main { 
+	background-color: whitesmoke;
+	width: 645px;
+	margin-left: 5%;
+	margin-bottom:20%;
+	
+}
+body{
+	background-color: whitesmoke;
+}
+li,a:hover {
+background-color:white;
+color: burlywood;
+border-radius: 10px;
+}
+#figurinha {
+	background-color: white;
+	border-color: black;
+	width: auto;
+	margin-top: 1%;
+	
+}
+
+th{
+	border: 1px;
+	border-style: groove;
+	margin:2%;
+	padding: 5px;
+}
+#logo {
+	/*background-image:linear-gradient(to bottom right,rgb(185, 185, 245),rgb(54, 54, 192));*/
+	background-image: url(imagens/beach/beach.jpg);
+	background-color:blue;
+	
+
+}
+.fotologo{
+	padding: 50px;
+	text-align: center;
+}
+a.navtext{
+	color: black;
+	font-size: x-large;
+	text-decoration: none;
+	margin: 10px;
+}
+#marca {
+	text-align: center;
+	margin-top: 1%;
+	padding: 15px;
+	background-color:pink;
+	width:auto;
+	color: azure;
+	font-family: sans-serif;
+	font-size:10px;
+}
+
+#rodape{
+	background-color: burlywood;
+	padding: 2%;
+	text-align:center;
+	margin-top: 50px
+}
+.footer{
+	display: inline-flex;
+	text-align:center;
+}
+p.linha{
+	margin: 10px;
+	font-size: medium;
+	padding: 10px;
+}
+th.t1 , th.t2,th.t3{
+	border-style: none;
+	border-width: 1px;
+	width: 25%;
+	padding: 5px;
+	margin-left: 10%;
+}
+th.t4{
+	border-style: none;
+	border-width: 1px;
+}
+
+td.td1, td.td2{
+	width: 15%;
+}
+
+div.galeria {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+
+div.galeria:hover {
+	border: 1px solid #777;
+}
+
+div.galeria img {
+	width: 100%;
+
+}
+
+div.desc {
+	padding: 1px;
+	text-align: center;
+}
+.mySlides {display:none;
+	width:100%
+}
+.w3-content{
+	margin-top: 2%;
+	max-width:300px;
+}
+.w3-center{
+	margin-top: 1%;
+	text-align: center;
+	
+}
+.w3-section{
+	
+	width: auto;
+	margin-top: 5%;
+	margin-bottom: 1%;
+}
+.w3-button:hover {
+	background-color: whitesmoke;
+	color: burlywood;
+}
+
+.grid-container{
+	width: auto;
+	height: 40%;
+	display:block;
+  }
+  .grid{
+	  width: 70%;
+	margin: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	font-size: 30px;
+	text-align: center;
+}
