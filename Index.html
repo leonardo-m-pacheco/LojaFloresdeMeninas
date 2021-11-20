@@ -162,7 +162,16 @@
         .prev,
         .next,
         .text {
-            font-size: 11px
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
         }
     }
 
@@ -208,8 +217,15 @@
                                     <img class="imagens" src="imagens/imagens_prod1/prod.2(2).jpeg" alt="prod1">
                                     <div class="text">Caption Two</div>
                                 </div>
+                                <div class="mySlides fade">
+                                    <div class="numbertext">3 / 3</div>
+                                    <img class="imagens" src="imagens/imagens_prod1/prod.1.jpeg" alt="prod1">
+                                    <div class="text">Caption Two</div>
+                                </div>
+                                <div class="mySlides fade">
                                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
                                 <div class="dot">
                                     <span class="dot" onclick="currentSlide(1)">1</span>
                                     <span class="dot" onclick="currentSlide(2)">2</span>
